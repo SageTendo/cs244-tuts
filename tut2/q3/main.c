@@ -14,11 +14,11 @@ int main(int argc, char *argv[])
 	printf("Enter the second string: \n");
 	scanf("%s", t);
 
-	strcp(s, t);
+	strcp(s, t); // Call strcp from string.c
 	printf("Amended String: %s\n", s);
 
 
-	strcp_p(s, t);
+	strcp_p(s, t); // Call strcp_p from string.c
 	printf("Amended String: %s\n", s);
 	return EXIT_SUCCESS;
 }
